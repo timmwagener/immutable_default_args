@@ -1,0 +1,27 @@
+
+
+environment:
+  matrix:
+    - PYTHON: "C:\\Python27-x64"
+      PYTHON_VERSION: "2.7.x" # currently 2.7.9
+      PYTHON_ARCH: "64"
+      TOX_ENV: "py27"
+
+    - PYTHON: "C:\\Python35-x64"
+      PYTHON_VERSION: "3.5.0"
+      PYTHON_ARCH: "64"
+      TOX_ENV: "py35"
+
+init:
+  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+  - "%PYTHON%/python -c \"import sys;print(sys.version)\""
+  - "%PYTHON%/python -c \"import sys;print(sys.platform)\""
+
+install:
+  - "%PYTHON%/Scripts/easy_install -U pip"
+  - "%PYTHON%/Scripts/pip install tox"
+
+build: false
+
+test_script:
+  - "%PYTHON%/Scripts/tox -e %TOX_ENV%"
