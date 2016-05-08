@@ -10,7 +10,7 @@ description = str("Very small package to automatically safeguard mutable "
 
 setup(
     name='immutable_default_args',
-    version='0.0.6',
+    version='0.0.7',
     description=description,
     long_description=immutable_default_args.__doc__,
     author="Timm Wagener",

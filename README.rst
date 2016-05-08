@@ -133,6 +133,10 @@ from *Py2.7* upstream.
 Changelog
 ---------
 
+0.0.7 *(08.05.2016)*
+********************
+* Add *CI* and badges and all that jazz.
+
 0.0.5 *(08.05.2016)*
 ********************
 * Fixed documentation
