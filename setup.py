@@ -5,13 +5,12 @@ from setuptools import setup, find_packages
 import immutable_default_args
 
 
-description = str("Very small package that offers a metaclass to automatically "
-                  "safeguard mutable function arguments, preventing them from "
-                  "being modified.")
+description = str("Very small package to automatically safeguard mutable "
+                  "function arguments, preventing them from being modified.")
 
 setup(
     name='immutable_default_args',
-    version='0.0.2',
+    version='0.0.6',
     description=description,
     long_description=immutable_default_args.__doc__,
     author="Timm Wagener",
