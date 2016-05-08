@@ -22,10 +22,9 @@ from inspect import(
 from collections import(
     MutableMapping,
     MutableSequence,
-    MutableSet
+    MutableSet,
+    OrderedDict
 )
-
-from immutable_default_args.compatibility import OrderedDict
 
 
 IS_PYTHON3 = sys.version_info >= (3, 0)
