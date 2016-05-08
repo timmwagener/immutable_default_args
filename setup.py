@@ -11,7 +11,7 @@ description = str("Very small package that offers a metaclass to automatically "
 
 setup(
     name='immutable_default_args',
-    version='0.0.1',
+    version='0.0.2',
     description=description,
     long_description=immutable_default_args.__doc__,
     author="Timm Wagener",
