@@ -4,23 +4,23 @@
 Immutable defaults arguments
 ============================
 
-.. |pypi| image:: https://img.shields.io/pypi/v/immutable-default-args.svg
+.. image:: https://img.shields.io/pypi/v/immutable-default-args.svg
    :target: https://pypi.python.org/pypi/immutable-default-args
    :alt: PyPI Package
 
-.. |pyversions| image:: https://img.shields.io/pypi/pyversions/immutable-default-args.svg
+.. image:: https://img.shields.io/pypi/pyversions/immutable-default-args.svg
    :target: https://pypi.python.org/pypi/immutable-default-args
    :alt: PyPI Python Versions
 
-.. |license| image:: https://img.shields.io/pypi/l/immutable-default-args.svg
+.. image:: https://img.shields.io/pypi/l/immutable-default-args.svg
    :target: https://pypi.python.org/pypi/immutable-default-args
    :alt: PyPI Package License
 
-.. |travisci| image:: https://travis-ci.org/timmwagener/immutable_default_args.svg?branch=develop
+.. image:: https://travis-ci.org/timmwagener/immutable_default_args.svg?branch=develop
     :target: https://pypi.python.org/pypi/immutable-default-args
     :alt: Current build status for Travis CI
 
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/l67sbo0uis1kyxe9?svg=true
+.. image:: https://ci.appveyor.com/api/projects/status/l67sbo0uis1kyxe9?svg=true
     :target: https://ci.appveyor.com/project/timmwagener/immutable-default-args
     :alt: Current build status for AppVeyor
 
