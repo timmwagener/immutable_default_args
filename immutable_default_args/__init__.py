@@ -17,7 +17,7 @@ Immutable defaults arguments
    :alt: PyPI Package License
 
 .. image:: https://travis-ci.org/timmwagener/immutable_default_args.svg?branch=develop
-    :target: https://pypi.python.org/pypi/immutable-default-args
+    :target: https://travis-ci.org/timmwagener/immutable_default_args
     :alt: Current build status for Travis CI
 
 .. image:: https://ci.appveyor.com/api/projects/status/l67sbo0uis1kyxe9?svg=true

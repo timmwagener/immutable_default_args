@@ -16,6 +16,7 @@ setup(
     author="Timm Wagener",
     author_email='wagenertimm@gmail.com',
     packages=find_packages(),
+    license='MIT',
     zip_safe=False,
     test_suite='tests',
     classifiers=[
