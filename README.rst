@@ -137,6 +137,10 @@ from *Py2.7* upstream.
 Changelog
 ---------
 
+0.0.8 *(08.05.2016)*
+********************
+* Add .landscape.yml and badges and more jazz.
+
 0.0.7 *(08.05.2016)*
 ********************
 * Add *CI* and badges and all that jazz.
