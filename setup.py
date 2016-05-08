@@ -1,18 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
-
-import immutable_default_args
+import io
+from setuptools import(
+    setup,
+    find_packages
+)
 
 
 description = str("Very small package to automatically safeguard mutable "
                   "function arguments, preventing them from being modified.")
 
+
+with io.open('README.rst', 'r', encoding='utf-8') as readme_file:
+    readme = readme_file.read()
+
+
 setup(
     name='immutable_default_args',
     version='0.0.7',
     description=description,
-    long_description=immutable_default_args.__doc__,
+    long_description=readme,
+    url='http://timmwagener.com/',
     author="Timm Wagener",
     author_email='wagenertimm@gmail.com',
     packages=find_packages(),

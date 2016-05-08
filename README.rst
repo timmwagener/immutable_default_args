@@ -1,6 +1,6 @@
-============================
-Immutable defaults arguments
-============================
+===========================
+Immutable default arguments
+===========================
 
 .. image:: https://img.shields.io/pypi/v/immutable-default-args.svg
     :target: https://pypi.python.org/pypi/immutable-default-args
@@ -21,6 +21,10 @@ Immutable defaults arguments
 .. image:: https://ci.appveyor.com/api/projects/status/l67sbo0uis1kyxe9?svg=true
     :target: https://ci.appveyor.com/project/timmwagener/immutable-default-args
     :alt: Current build status for AppVeyor
+
+.. image:: https://landscape.io/github/timmwagener/immutable_default_args/develop/landscape.svg?style=flat
+   :target: https://landscape.io/github/timmwagener/immutable_default_args/develop
+   :alt: Code Health
 
 ----
 
