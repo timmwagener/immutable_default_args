@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import sys
 import logging
 from copy import deepcopy
 from array import array

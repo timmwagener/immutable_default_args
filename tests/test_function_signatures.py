@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-from array import array
-from copy import deepcopy
-
-import pytest
 
 
 def test_mutable_function_with_two_default_args_remains_unaltered(

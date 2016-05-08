@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-from array import array
-from copy import deepcopy
-
-import pytest
 
 
 import immutable_default_args
