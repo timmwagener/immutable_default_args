@@ -1,11 +1,20 @@
 
-
 environment:
   matrix:
     - PYTHON: "C:\\Python27-x64"
       PYTHON_VERSION: "2.7.x" # currently 2.7.9
       PYTHON_ARCH: "64"
       TOX_ENV: "py27"
+
+    - PYTHON: "C:\\Python33-x64"
+      PYTHON_VERSION: "3.3.0"
+      PYTHON_ARCH: "64"
+      TOX_ENV: "py33"
+
+    - PYTHON: "C:\\Python34-x64"
+      PYTHON_VERSION: "3.4.0"
+      PYTHON_ARCH: "64"
+      TOX_ENV: "py34"
 
     - PYTHON: "C:\\Python35-x64"
       PYTHON_VERSION: "3.5.0"

@@ -1,6 +1,14 @@
 Immutable defaults arguments
 ============================
 
+.. image:: https://img.shields.io/pypi/v/immutable-default-args.svg
+        :target: https://pypi.python.org/pypi/immutable-default-args
+
+.. image:: https://ci.appveyor.com/api/projects/status/l67sbo0uis1kyxe9?svg=true
+        :target: https://ci.appveyor.com/project/timmwagener/immutable-default-args
+
+----
+
 This module provides facilities for turning mutable default function arguments
 into immutable ones. It is fairly lightweight and has no non-standard dependencies.
 You can install this package with the standard ``pip`` command::
