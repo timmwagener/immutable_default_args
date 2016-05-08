@@ -56,7 +56,9 @@ def test_mutable_function_default_given_through_pos_args_is_respected(
 
     _, mutable_default = instance.return_mutable_default(
         'positional_arg', 'default_arg_given_as_pos_arg')
+
     assert isinstance(mutable_default, (str,))
+    assert mutable_default == 'default_arg_given_as_pos_arg'
 
 
 def test_mutable_function_default_with_classmethod(CrossinterpreterBaseClass):
@@ -69,8 +71,10 @@ def test_mutable_function_default_with_classmethod(CrossinterpreterBaseClass):
             return positional_arg, default_arg
 
 
-    instance = TestClass()
+    assert isinstance(TestClass.__dict__['return_mutable_default_class'],
+                      (classmethod,))
 
+    instance = TestClass()
     for index in range(100):
         _, mutable_default = instance.return_mutable_default_class('positional_arg')
         assert len(mutable_default) == 0
@@ -89,6 +93,8 @@ def test_mutable_function_default_with_staticmethod(CrossinterpreterBaseClass):
         def return_mutable_default_class(positional_arg, default_arg=[]):
             return positional_arg, default_arg
 
+    assert isinstance(TestClass.__dict__['return_mutable_default_class'],
+                      (staticmethod,))
 
     for index in range(100):
         _, mutable_default = TestClass.return_mutable_default_class('positional_arg')
