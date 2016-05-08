@@ -17,7 +17,7 @@ with io.open('README.rst', 'r', encoding='utf-8') as readme_file:
 
 setup(
     name='immutable_default_args',
-    version='0.0.8',
+    version='0.0.9',
     description=description,
     long_description=readme,
     url='http://timmwagener.com/',
